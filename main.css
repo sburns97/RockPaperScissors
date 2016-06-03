@@ -1,0 +1,115 @@
+
+/*Styles heading text */
+
+h1{
+text-align:center;
+font-family: 'Libre Baskerville', serif;
+}
+
+body {
+  color:#d9d9d9;
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.25;
+  background-color:#e0e0eb;
+  text-align:center;
+  font-family: 'Muli', sans-serif;
+
+}
+
+.banner {
+  color:#d9d9d9;
+  border-bottom: 2px solid;
+  border-top: 2px solid;
+  padding: 10px;
+  text-align:center;
+  font-family: 'Libre Baskerville', serif;
+  
+  }
+
+h3{
+color:#a6a6a6;
+}
+ 
+
+/*Styles the headers of the pages */
+.main{
+  background-color: #cccccc;
+  padding-top: 100px;
+  height: 250px;
+background:linear-gradient(#29293D, transparent 90%),
+    linear-gradient(0deg,#e0e0eb, transparent 40%),
+    #cccccc url('../img/mainPage.jpg') no-repeat top /cover;
+}
+.rps{
+  background-color: #cccccc;
+  padding-top: 100px;
+  height: 250px;
+background:linear-gradient(#29293D, transparent 90%),
+    linear-gradient(0deg,#e0e0eb, transparent 40%),
+    #cccccc url('../img/RPS.jpg') no-repeat top /cover
+}
+
+.craps{
+  background-color: #cccccc;
+  padding-top: 100px;
+  height: 250px;
+background:linear-gradient(#29293D, transparent 90%),
+    linear-gradient(0deg,#e0e0eb, transparent 40%),
+    #cccccc url('../img/dice.png') no-repeat top /cover
+    
+}
+
+/*Styles game text*/
+
+.gameplay{
+padding-top: 50px;
+  font-size: 20px;
+}
+
+.response{
+padding-top: 60px;
+  color:#a6a6a6;
+  font-size: 25px;
+}
+
+
+/*Styles the clickable links*/
+
+
+.button{
+padding-top:10px;
+  padding-bottom:20px;
+  font-size:40px;
+  list-style-type:none;
+ 
+}
+
+a:link{
+text-decoration:none;
+}
+
+a:visited{
+color:#47476b;
+}
+
+a:hover{
+color: #9494b8;
+}
+
+.selected {
+color: #666699;
+  
+}
+
+a {
+color:#424242;
+}
+
+
+
+
+
+
+
+
