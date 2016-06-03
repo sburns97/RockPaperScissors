@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href='https://fonts.googleapis.com/css?family=Muli|Libre+Baskerville' rel='stylesheet' type='text/css'>
+ 
+<header class="rps">
+  
+  <h1>Rock Paper Scissors!</h1>
+  <h2>Take Your Pick</h2>
+</header>
+<body>
+
+
+<div class="gameplay">
+   <button type="button" id="choice1" name="choice" value="rock" onclick="myFunction('rock')" >Rock</button> 
+   <button type="button" id="choice2" name="choice" value="scissors" onclick="myFunction('scissors')">Scissors</button>
+   <button type="button" id="choice3" name="choice" value="paper" onclick="myFunction('paper')">Paper</button>
+   <div class="button"><a href="index.html" class="selected">Go Back</a></div>
+   <div class="button"><a href="rockpaperpage" class="selected" >Refresh</a></div>
+ 
+  </div>
+  
+  
+  <div class="response">
+  <p id="plywin"></p>
+  <p id="compwin"></p>
+  <p id="tie"></p>
+  </div>
+   	<script src="RPSjava.js"></script>
+</body>
+</html>
